@@ -30,6 +30,7 @@ $(document).ready(function(){
 
   $('form#pingform').submit(function(event){
     event.preventDefault();
+    $('#resultlist').empty();
     var userNum = $('input#usernum').val();
     // console.log(userNum);
     var pingNum = pingPong(userNum);
@@ -38,8 +39,10 @@ $(document).ready(function(){
     // alert(numList);
 
     // numList.forEach(num) {
-    //
+    //   $('#resultlist').append('<li><span></span></li>');
     // }
+
+    $('#resultsdiv').show();
 
   });
 
