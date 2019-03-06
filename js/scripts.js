@@ -21,8 +21,13 @@ var numLength = function(num) {
   return numberList;
 };
 
+
+
+
 $(document).ready(function(){
   // debugger;
+  $('#resultsdiv').hide();
+
   $('form#pingform').submit(function(event){
     event.preventDefault();
     var userNum = $('input#usernum').val();
@@ -30,7 +35,11 @@ $(document).ready(function(){
     var pingNum = pingPong(userNum);
     // console.log(typeof pingNum);
     var numList = numLength(userNum);
-    alert(numList);
+    // alert(numList);
+
+    // numList.forEach(num) {
+    //
+    // }
 
   });
 
