@@ -3,10 +3,12 @@ var pingPong = function(number) {
   // console.log(num);
   if (num % 15 === 0) {
     num = 'pingpong';
-    return num;
-  } else {
-    return num;
+  } else if (num % 5 === 0) {
+    num = 'pong';
+  } else if (num % 3 === 0) {
+    num = 'ping';
   }
+  return num;
 }
 
 $(document).ready(function(){
