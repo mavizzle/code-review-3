@@ -1,7 +1,12 @@
 var pingPong = function(number) {
   var num = parseInt(number);
   // console.log(num);
-  return num;
+  if (num % 15 === 0) {
+    num = 'pingpong';
+    return num;
+  } else {
+    return num;
+  }
 }
 
 $(document).ready(function(){
