@@ -9,7 +9,17 @@ var pingPong = function(number) {
     num = 'ping';
   }
   return num;
-}
+};
+
+var numLength = function(num) {
+  var numberList = [];
+
+  for (index = 0; index < parseInt(num); index +=1) {
+    var newNum = pingPong(index+1);
+    numberList.push(newNum);
+  }
+  return numberList;
+};
 
 $(document).ready(function(){
   // debugger;
@@ -19,7 +29,8 @@ $(document).ready(function(){
     // console.log(userNum);
     var pingNum = pingPong(userNum);
     // console.log(typeof pingNum);
-    alert(pingNum);
+    var numList = numLength(userNum);
+    alert(numList);
 
   });
 
