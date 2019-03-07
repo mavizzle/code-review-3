@@ -38,9 +38,13 @@ $(document).ready(function(){
     var numList = numLength(userNum);
     // alert(numList);
 
-    // numList.forEach(num) {
-    //   $('#resultlist').append('<li><span></span></li>');
-    // }
+
+    numList.forEach(function(num) {
+      console.log(num);
+      // $('#resultlist').append('<li>').append(num);
+      // $('#resultlist').append("<li>" + num + "</li>")
+      $('#resultlist').append(`<li>${num}</li>`)
+    });
 
     $('#resultsdiv').show();
 
