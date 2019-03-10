@@ -21,20 +21,42 @@ _This is my third official webpage that is posted on gh-pages (it can be found h
 ## **Specs for the Ping Pong Webpage**
 
 * _The webpage should take a user input and return it_
- * _Input Example: 4_
- * _Output Example: '4'_
+  * _Input Example: 4_
+  * _Output Example: '4'_
 
 * _The webpage should only accept a user input that is a number between 1 and 100_
- * _Input Example: 0_
- * _Output Example: 'Value must be greater than or equal to 1'_
-wd
-* _The webpage should take a user input and return it_
- * _Input Example: 4_
- * _Output Example: '4'_
+  * _Input Example: 0_
+  * _Output Example: "Value must be greater than or equal to 1"_
 
-* _The webpage should take a user input and return it_
- * _Input Example: 4_
- * _Output Example: '4'_
+* _The webpage checks if the user's number is divisble by 3 and returns 'ping'_
+  * _Input Example: 3_
+  * _Output Example: 'ping'_
+
+* _The webpage checks if the user's number is divisble by 5 and returns 'pong'_
+  * _Input Example: 5_
+  * _Output Example: 'pong'_
+
+* _The webpage checks if the user's number is divisble by 15 and returns 'pingpong'_
+  * _Input Example: 15_
+  * _Output Example: 'pingpong'_
+
+* _The webpage creates a list of number starting with 1 and ends with the user's number_
+  * _Input Example: 4_
+  * _Output Example: [1,2,3,4]_
+
+* _The webpage loops through the number list and checks if a number is divisible by 3, 5, or 15 and returns the appropriate number or string_
+  * _Input Example: 4_
+  * _Output Example: [1,2,'ping',4]_
+
+* _The webpage loops through the number list and appends a HTML list line for each number/string and displays the entire list_
+  * _Input Example: 4_
+  * _Output Example:_
+    * _1_
+    * _2_
+    * _'ping'_
+    * _4_
+
+
 
 ## Support and contact details
 
