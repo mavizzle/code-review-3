@@ -26,7 +26,7 @@ var numLength = function(num) {
 
 $(document).ready(function(){
   // debugger;
-  $('#resultsdiv').hide();
+  // $('#in-result').hide();
 
   $('form#pingform').submit(function(event){
     event.preventDefault();
@@ -38,15 +38,25 @@ $(document).ready(function(){
     var numList = numLength(userNum);
     // alert(numList);
 
+    // $('#resultsdiv').show();
+
+    var indexer = 1;
 
     numList.forEach(function(num) {
-      console.log(num);
+      // console.log(num);
       // $('#resultlist').append('<li>').append(num);
       // $('#resultlist').append("<li>" + num + "</li>")
-      $('#resultlist').append(`<li>${num}</li>`)
+
+      $('#resultlist').append(`<li id="resultitem${indexer}">${num}</li>`);
+
+
+
+      // $(`#resultitem${indexer}`).hide();
+      // indexer += 1;
+      // console.log(indexer);
     });
 
-    $('#resultsdiv').show();
+
 
   });
 
