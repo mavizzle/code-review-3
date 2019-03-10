@@ -1,12 +1,12 @@
 # _PingPong!_
 
-#### _Code Review #3 - Ping Pong Webpage,3/9/19_
+#### _Code Review #3 - Ping Pong Webpage, 3/9/19_
 
 #### By _**Lex Wilkins**_
 
 ## Description
 
-_This is my third official webpage that is posted on gh-pages (it can be found here: https://mavizzle.github.io/code-review-3/), which includes a Ping Pong generator that takes a user input (number) and returns special strings if the number is divisble by 3 or 5. It includes an index.html, Bootstrap 1.3, custom CSS stylesheets, jQuery 3.3.1, and a media folder._
+_This is my third official webpage that is posted on gh-pages (it can be found here: https://mavizzle.github.io/code-review-3/), which includes a Ping Pong generator that takes a user input (number) and returns special strings if the number is divisble by 3 and/or 5. It includes an index.html, Bootstrap 1.3, custom CSS stylesheets, and jQuery 3.3.1._
 
 ## Setup/Installation Requirements
 
@@ -15,7 +15,7 @@ _This is my third official webpage that is posted on gh-pages (it can be found h
 * _Head to this web address https://mavizzle.github.io/code-review-3/ to view the project_
 * _Alternatively, you may clone this repository and view it on your local drive following these steps:_
 * _Download Git: head to [this link] (https://www.learnhowtoprogram.com/intro-to-programming-evening/git-html-css/git-and-github) and follow the installation instructions depending on which operating system you use_
-* _Within Git/Git Bash, use the command " git clone https://github.com/mavizzle/code-review-1 " and you will have a working copy of this repository_
+* _Within Git/Git Bash, use the command " git clone https://github.com/mavizzle/code-review-3 " and you will have a working copy of this repository_
 * _The files may be viewed on your computer's file explorer, or they may be viewed using a text editor such as Atom: download and installation instructions may be found [here] (https://www.learnhowtoprogram.com/intro-to-programming-evening/git-html-css/text-editor-atom)_.
 
 ## **Specs for the Ping Pong Webpage**
@@ -55,8 +55,6 @@ _This is my third official webpage that is posted on gh-pages (it can be found h
     * _2_
     * _'ping'_
     * _4_
-
-
 
 ## Support and contact details
 

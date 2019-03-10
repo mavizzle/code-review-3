@@ -1,0 +1,47 @@
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJS_Zg04-9_QNuwzERFH3q64aBU7c9cnTeR6DVhnfFBWUaA9m3');
+}
+
+form {
+  padding-bottom: 25px;
+}
+
+#bodycontainer {
+  background-color: white;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  text-align: center;
+}
+
+#header {
+  text-align: left;
+  background-color: grey;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7CcshE_aTtxj6xv8Kk3mGlqQaPvLZQ1yRIcQjwVBrjCXySpjlNA');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#infodiv {
+  list-style-position: inside;
+}
+
+#usernum {
+  max-width: 75px;
+  margin: auto;
+}
+
+#resultbtn {
+  background-color: grey;
+  color: white;
+}
+
+#resultsdiv {
+  /* list-style-position: inside; */
+  padding-bottom: 25px;
+}
+
+#in-result {
+  width:100px;
+  margin:0 auto;
+  text-align: center;
+}

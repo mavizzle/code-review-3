@@ -8,31 +8,33 @@
     <title>Ping Pong</title>
   </head>
   <body>
-    <div class="container">
-      <div class="jumbotron">
+    <div class="container" id="bodycontainer">
+      <div class="jumbotron" id="header">
         <h1>Ping Pong!</h1>
       </div>
       <div id="infodiv">
         <h3>Let's play!</h3>
         <h6>Rules:</h6>
-        <p>Enter a number, and the webpage will count up to that number (starting from 1) and display a result with the following exceptions:</p>
+        <p>Enter a number, and the webpage will count up to that number (starting from 1) and display those numbers in a list with the following exceptions:</p>
         <ol>
           <li>Numbers divisible by 3 become 'ping'</li>
           <li>Numbers divisible by 5 become 'pong'</li>
-          <li>Numbers divisble by 3 and 5 become 'pingpong'</li>
+          <li>Numbers divisible by 3 and 5 become 'pingpong'</li>
         </ol>
       </div>
       <form id="pingform">
         <div class="form-group">
           <label for="usernum">Enter a number</label>
-          <input type="number" class="form-control" id="usernum" min=1 max=100>
+          <input type="number" class="form-control" id="usernum" min=1 max=50>
         </div>
         <button type="submit" class="btn" id="resultbtn">Click here to ping!</button>
       </form>
       <div id="resultsdiv">
         <h6>Here is your ping pong list!</h6>
-        <ul id="resultlist">
-        </ul>
+        <div id="in-result">
+          <ul id="resultlist">
+          </ul>
+        </div>
       </div>
     </div>
   </body>
